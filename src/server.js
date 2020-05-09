@@ -11,7 +11,7 @@ mongoose.connect(MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     const app = express();
 
-    app.get('/', (req, res) => res.send("Hello world!! asdfasdf"));
+    app.get('/', (req, res) => res.send("Hello world!! Changed something in app!!"));
 
     app.listen(PORT, HOST);
 
